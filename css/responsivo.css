@@ -1,0 +1,43 @@
+@media (max-width: 762px) {
+
+    .no-mobile {
+        display: none;
+    }
+
+    .col-one{
+        padding-left: 35px!important;
+        padding-right: 35px!important;
+    }
+
+    .navbar-toggler-icon {
+        padding-top: 5px;
+    }
+
+    .navbar-collapse {
+        background-color: var(--color-secondary);
+        padding: 20px;
+        text-align: center;
+        border-radius: 40px;
+    }
+
+    .banner {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .text-banner h1 {
+        font-size: 30px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .text-introduction {
+        margin-bottom: 0px;
+    }
+
+    .btn-location {
+        margin-right: 250px!important;
+    }
+}

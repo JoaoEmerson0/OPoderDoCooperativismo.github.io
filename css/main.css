@@ -194,3 +194,23 @@ a.navbar-brand {
     background-color: #10b9a8;
 }
 
+footer{
+    background-color: var(--color-secondary);
+}
+
+.logo-footer {
+    width: 100px;
+}
+
+.container-logo-footer, .container-texto-footer {
+    display: flex;
+    align-items: center;
+}
+
+.container-logo-footer {
+    justify-content: start;
+}
+
+.container-texto-footer {
+    justify-content: center;
+}
