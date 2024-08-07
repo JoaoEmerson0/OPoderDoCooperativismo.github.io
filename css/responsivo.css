@@ -13,6 +13,10 @@
         padding-top: 5px;
     }
 
+    .introduction {
+        padding-top: 5px;
+    }
+
     .navbar-collapse {
         background-color: var(--color-secondary);
         padding: 20px;
@@ -37,7 +41,8 @@
         margin-bottom: 0px;
     }
 
-    .btn-location {
-        margin-right: 250px!important;
+    .img-logo-copacol{
+        margin-left: 50px!important;
+        width: 250px;
     }
 }
