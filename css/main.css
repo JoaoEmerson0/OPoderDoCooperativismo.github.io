@@ -14,7 +14,7 @@
     --color-text: #4f4f4f;
     --color-text-outr: #90908e;
     --color-primary: #00ae9d;
-    --color-secondary:  #5eddd0;
+    --color-secondary:  #4ccabe;
     --color-white: #ffffff;
     --color-red: #e74c3c;
     --color-green: #2ecc71;
@@ -67,6 +67,7 @@ a.navbar-brand {
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 20px;
+    text-align: justify;
 }
 
 .text-introduction p {
@@ -139,7 +140,6 @@ a.navbar-brand {
 }
 
 .img-logo-copacol{
-    margin-right: 150px!important;
     margin-bottom: 150px!important;
 }
 

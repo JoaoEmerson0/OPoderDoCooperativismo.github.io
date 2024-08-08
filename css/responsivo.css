@@ -38,11 +38,10 @@
     }
 
     .text-introduction {
-        margin-bottom: 0px;
+        margin-bottom: 15px;
     }
 
     .img-logo-copacol{
-        margin-left: 50px!important;
-        width: 250px;
+        margin-left: 25px!important;
     }
 }
