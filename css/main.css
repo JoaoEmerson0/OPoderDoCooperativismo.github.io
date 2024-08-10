@@ -142,7 +142,6 @@ a.navbar-brand {
 }
 
 .copacol-img {
-    /* margin-right: 250px; */
     border-radius: 35px;
 }
 
@@ -215,4 +214,85 @@ footer{
 
 .other_alin{
     margin-left: 150px!important;
+}
+
+.btn-audio{
+    background-color: var(--color-sicoob);
+    color: var(--color-white);
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 100px;
+    border: none;
+    padding: 15px 25px;
+    font-size: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    transition: 0.1ms;
+}
+
+.btn-audio:hover{
+    color: var(--color-text);
+    background-color: #10b9a8;
+    transition: 0.1ms;
+}
+
+.cop {
+    background-color: var(--color-copacol);
+}
+
+.cop:hover {
+    background-color: #fc4820 ;
+    color: var(--color-text);
+}
+
+#copacol-img, #sicoob-img{
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+
+.button-estilo {
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1; 
+    border-radius: 5px;
+}
+
+.button-ampliado {
+    position: absolute;
+    padding: 5px;
+    margin-left: 550px;
+    margin-top: 150px;
+}
+
+#botao-ampliar {
+    top: 10px; 
+    left: 10px; 
+}
+
+#botao-reduzir {
+    top: 50px;
+    left: 10px;
+}
+.ampliada {
+    transform: scale(2); 
+}
+
+.button-ampliado-sicoob {
+    position: absolute;
+    padding: 5px;
+    margin-left: 550px;
+    margin-top: 250px;
+}
+
+.button-ampliado-copacol {
+    position: absolute;
+    padding: 5px;
+    margin-left: 550px!important;
+    margin-top: 200px!important;
 }

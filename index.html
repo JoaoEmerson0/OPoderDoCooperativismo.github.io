@@ -17,23 +17,22 @@
 </head>
 
 <body>
-
     <section class="header">
 
         <div class="container">
-
+    
             <nav class="navbar navbar-expand-lg pl-0 pr-0">
                 <a class="navbar-brand wow fadeIn">
                     <img src="./img/logo.svg" width="90" class="img-logo">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdronw">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
                     <span class="navbar-toggler-icon">
                         <i class="fas fa-bars"></i>
                     </span>
                 </button>
-                <div class="collapse navbar-collapse wow fadeIn" id="navbarNavDropdronw">
+                <div class="collapse navbar-collapse wow fadeIn" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto mr-auto">
-
+    
                         <li class="nav-item">
                             <a href="#introduction" class="nav-link"><b>Introdução</b></a>
                         </li>
@@ -46,15 +45,17 @@
                         <li class="nav-item">
                             <a href="#sicoob" class="nav-link"><b>Sicoob</b></a>
                         </li>
-
+    
                     </ul>
-
+    
+                    <p>#Agrinho2024 #Agrinho</p>
                 </div>
             </nav>
-
+    
         </div>
-
+    
     </section>
+    
 
     <section class="banner" id="banner">
 
@@ -270,7 +271,13 @@
 
                 <div class="col-4 no-mobile wow fadeInRight delay-07s">
                     <div>
-                        <img src="./img/copacol_img.jpg" class="copacol-img" width="450">
+                        <button class="button-estilo " id="botao-ampliar-copacol">Ampliar Imagem</button>
+                        <button id="botao-reduzir-copacol" style="display: none;" class="button-estilo button-ampliado-copacol">Reduzir Imagem</button>
+                        <img src="./img/copacol_img.jpg" id="copacol-img" class="copacol-img" width="450">
+                        <p class="mt-3">Descrição da Imagem!</p>
+                        <audio id="copacol-audio" controls>
+                            <source src="Audio/copacol_img.mp3" type="audio/mpeg">
+                        </audio>
                     </div>
                 </div>
 
@@ -379,6 +386,7 @@
                             <img src="./img/Sicoob-logo.png" width="300" class="img-logo-copacol">
                         </a>
                     </div>
+
                 </div>
 
                 <div class="col-12 col-md-2"></div>
@@ -410,8 +418,16 @@
 
                 <div class="col-4 no-mobile wow fadeInRight delay-05s">
                     <div>
-                        <img src="./img/sicoob-img.webp" class="copacol-img" width="460">
+                        <button class="button-estilo" id="botao-ampliar-sicoob">Ampliar Imagem</button>
+                        <button id="botao-reduzir-sicoob" style="display: none;" class="button-estilo button-ampliado-sicoob normal-button">Reduzir Imagem</button>
+                        <img src="./img/sicoob-img.webp" id="sicoob-img" class="copacol-img" width="460">
+                        <p class="mt-3">Descrição da Imagem!</p>
+                        <audio id="sicoob-Audio" controls>
+                           Descrição da Imagem! <source src="Audio/sicoob_img.mp3" type="audio/mpeg">
+                        </audio>
+
                     </div>
+                    
                 </div>
 
                 <div class="col-12 text-center mb-5 no-mobile wow fadeInUp delay-07s">
@@ -505,6 +521,7 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 
     <script>new WOW().init();</script>
 </body>
