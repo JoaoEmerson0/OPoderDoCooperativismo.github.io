@@ -2,6 +2,9 @@ Projeto Agrinho 2024
 
 O Poder do Cooperativismo!
 
+Link projeto Final: https://joaoemerson0.github.io/OPoderDoCooperativismo.github.io/
+
+
 O site oferece, em sua versão para desktop, a funcionalidade de ouvir a descrição de algumas imagens, 
 além da opção de ampliar o tamanho dessas imagens.
 
