@@ -20,4 +20,7 @@ Modernizr (modernizr-3.5.0.min.js)
 Popper (popper.min.js)
 WOW.js (wow.min.js)
 
+Fontes
+
+Google Fonts
 
